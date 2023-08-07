@@ -15,18 +15,71 @@
     <script src="./js/main.js"></script>
   </head>
   <body>
-    <main>
-      <img src="./images/bg-stars.svg" alt="background-stars" />
-      <!--This is star image for background design-->
-      <h1>We're launching soon</h1>
-      <section class="flip-card"></section>
-      Days Hours Minutes Seconds
-    </main>
+    <h1>We're launching soon</h1>
+    <div class="container">
+      <div class="container-segment">
+        <div class="segment-title">Hours</div>
+        <div class="segment">
+          <div class="flip-card" data-hours-tens>
+            <div class="top">2</div>
+            <div class="bottom">2</div>
+          </div>
+          <div class="flip-card" data-hours-ones>
+            <div class="top">4</div>
+            <div class="bottom">4</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-segment">
+        <div class="segment-title">Minutes</div>
+        <div class="segment">
+          <div class="flip-card" data-minutes-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-minutes-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="container-segment">
+        <div class="segment-title">Seconds</div>
+        <div class="segment">
+          <div class="flip-card" data-seconds-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card" data-seconds-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
-      <img src="./images/icon-facebook.svg" alt="" />
-      <img src="./images/icon-instagram.svg" alt="" />
-      <img src="./images/icon-pinterest.svg" alt="" />
-      <img src="./images/pattern-hills.svg" alt="" />
+      <img
+        src="./images/pattern-hills.svg"
+        alt="pattern-hills"
+        class="footer-img"
+      />
+      <div class="icons">
+        <img
+          src="./images/icon-facebook.svg"
+          alt="icon-facebook"
+          class="icon"
+        />
+        <img
+          src="./images/icon-instagram.svg"
+          alt="icon-instagram"
+          class="icon"
+        />
+        <img
+          src="./images/icon-pinterest.svg"
+          alt="icon-pinterest"
+          class="icon"
+        />
+      </div>
     </footer>
   </body>
 </html>
